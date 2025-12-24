@@ -1,0 +1,71 @@
+/* ===== RESET GLOBAL ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ===== VARIABLES GLOBALES ===== */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #213547;
+  background-color: #f5f7fa;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== STRUCTURE PAGE (IMPORTANT) ===== */
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* ❌ ON SUPPRIME LE FLEX QUI CASSE TOUT */
+body {
+  display: block;     /* ⬅️ OBLIGATOIRE */
+  background: #f5f7fa;
+}
+
+/* ===== LIENS ===== */
+a {
+  font-weight: 500;
+  color: #0a4fa3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== BOUTONS ===== */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  border-color: #0a4fa3;
+}
+
+/* ===== TITRES ===== */
+h1, h2, h3 {
+  margin: 0;
+}

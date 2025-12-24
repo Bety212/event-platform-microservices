@@ -1,0 +1,15 @@
+/* App.css — VERSION CORRIGÉE */
+
+/* Le root doit prendre TOUT l’écran */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* conteneur global */
+.app {
+  width: 100%;
+  min-height: 100vh;
+}

@@ -1,0 +1,48 @@
+.tickets-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.category-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+  background: #fff;
+  transition: box-shadow 0.2s ease;
+}
+
+.category-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.category-card h3 {
+  margin: 0 0 5px 0;
+}
+
+.remaining {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-select {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-select:hover {
+  background-color: #1558b0;
+}
